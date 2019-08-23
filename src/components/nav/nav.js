@@ -9,6 +9,7 @@ const Nav = props => {
           <Link to="company">Company</ Link>
           <Link to="team">Team</ Link>
           <Link to="portfolio">Portfolio</ Link>
+          <Link to="company">Contact</ Link>
         </div>
       </nav>
     )
