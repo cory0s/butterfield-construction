@@ -1,0 +1,11 @@
+nav{
+    .links{
+        border: 2px solid blue;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0px auto 10px;
+        a{
+            margin: 5px 5px;
+        }
+    }
+}
