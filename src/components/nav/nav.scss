@@ -1,11 +1,16 @@
 nav{
+    align-items: baseline;
+    display: flex;
+    width: 50%;
     .links{
-        border: 2px solid blue;
         display: flex;
         justify-content: flex-end;
-        margin: 0px auto 10px;
+        margin: auto;
+        padding-right: 10%;
+        width: 100%;
         a{
             margin: 5px 5px;
+            text-decoration: none;
         }
     }
 }

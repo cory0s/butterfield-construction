@@ -3,12 +3,18 @@
 }
 
 html{
-  border: solid red 3px;
   height: 100%;
 }
 
 body{
-  border: solid green 2px;
   min-height: 100%;
   margin: 0px;
+}
+
+header{
+  background-color: #999;
+}
+
+.header-wrapper{
+  display: flex;
 }
