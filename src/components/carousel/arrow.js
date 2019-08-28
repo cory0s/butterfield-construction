@@ -1,9 +1,11 @@
+import React from 'react';
+
 const Arrow = ({direction, clickFunction, glyph}) => {
-    const style = {
-        backgroundImage: `url(${url})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center'
-      };
+    // const style = {
+    //     backgroundImage: `url(${url})`,
+    //     backgroundSize: 'cover',
+    //     backgroundPosition: 'center'
+    //   };
 
       return(
           <div 
