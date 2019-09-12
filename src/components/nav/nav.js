@@ -6,10 +6,10 @@ const Nav = props => {
     return(
       <nav>
         <div className="links">
-          <Link to="company">Company</ Link>
+          <Link to="">Company</ Link>
           <Link to="team">Team</ Link>
           <Link to="portfolio">Portfolio</ Link>
-          <Link to="company">Contact</ Link>
+          <Link to="contact">Contact</ Link>
         </div>
       </nav>
     )
