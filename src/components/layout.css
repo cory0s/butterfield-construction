@@ -18,6 +18,7 @@ header{
 
 .header-wrapper{
   display: flex;
+  height: 100%;
 }
 
 main{
