@@ -4,7 +4,8 @@ import './logo.scss';
 const Logo = props => {    
     return(
         <div className="logo">
-            <h1>Butterfield Construction</h1>
+            <h1>Butterfield</h1>
+            <p>Construction</p>
         </div>
     )
 }
