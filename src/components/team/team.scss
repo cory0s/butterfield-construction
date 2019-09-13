@@ -1,0 +1,29 @@
+.team{
+    background-image: url('../../../content/images/team.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0px;
+    max-height: 100%;
+    padding-top: 80px;
+}
+
+.team-wrapper, .owner-card{
+    display: flex;
+    font-family: 'Barlow Condensed', sans-serif;
+    justify-content: center;
+    padding: 15px;
+    .team-card{
+        align-items: center;
+        background: rgba(204, 204, 204, 0.9);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px 10px 0px 10px;
+        width: 20%;
+        img{
+            border-radius: 50%;
+        }
+    }
+}
