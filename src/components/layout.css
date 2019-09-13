@@ -3,13 +3,16 @@
 }
 
 html, body{
-  /* border: solid 3px green; */
   height: 100%;
   margin: 0px;
 }
 
+#___gatsby, #gatsby-focus-wrapper{
+  height: 100%;
+}
+
 header{
-  background-color: #c2cad0;
+  /* background-color: #c2cad0; */
   height: 80px;
   top: 0px;
   width: 100%;
@@ -28,5 +31,5 @@ main{
 .wrapper{
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  height: 100%;
 }
