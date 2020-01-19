@@ -14,9 +14,11 @@ html, body{
 header{
   /* background-color: #c2cad0; */
   height: 80px;
-  top: 0px;
-  width: 100%;
   position: fixed;
+  top: 0px;
+  transition: all 1.5s ease;
+  width: 100%;
+
 }
 
 .header-wrapper{

@@ -1,0 +1,15 @@
+.projects{
+    padding: 10px 20px;
+
+    h1{
+        text-align: center;
+    }
+
+    div{
+        border: solid 2px green;
+        display: flex;
+        img{
+            max-width: 250px;
+        }
+    }
+}
