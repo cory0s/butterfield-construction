@@ -1,18 +1,21 @@
 import React from 'react';
 import './projects.scss';
-import Picture from '../../../content/images/bus.jpg';
+import ProjectCard from './projectCard';
+import data from '../../../content/data/projects.json';
 
-const Projects = () => {
+class Projects extends React.Component{
 
-    return (            
-        <div className="projects">
-            <h1>Our Work</h1>
-            <div id="project1">
-                <img src={Picture}></img>
-                <p>These are some recent projects</p>
-            </div>
-        </div>
-    )
+    render(){
+        return(
+            data.map(project => {
+                return(
+                    <div key={project.address}>
+                    <ProjectCard project={project} />
+                    </div>
+                )
+            })
+        )
+    }
 }
 
 export default Projects;
