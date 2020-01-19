@@ -1,7 +1,9 @@
 // import PropTypes from "prop-types"
 import React from "react"
-import Nav from './nav/nav'
-import Logo from './logo/logo'
+import Nav from '../nav/nav'
+import Logo from '../logo/logo'
+
+import './header.scss'
 
 class Header extends React.Component{
 
@@ -27,7 +29,7 @@ class Header extends React.Component{
   render(){
     return(
       <header>
-        <div class="header-wrapper" style={{background:this.state.color}}>
+        <div className="header-wrapper" style={{background:this.state.color}}>
           <Logo />
           <Nav />
         </div>
